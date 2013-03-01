@@ -1,17 +1,17 @@
 <?php
 /**
  * @file
- * policy_type_taxonomy.features.taxonomy.inc
+ * policy_type_texonomy.features.taxonomy.inc
  */
 
 /**
  * Implements hook_taxonomy_default_vocabularies().
  */
-function policy_type_taxonomy_taxonomy_default_vocabularies() {
+function policy_type_texonomy_taxonomy_default_vocabularies() {
   return array(
-    'purpose_of_administrative_request' => array(
-      'name' => 'Purpose of Administrative Request',
-      'machine_name' => 'purpose_of_administrative_request',
+    'policy_type' => array(
+      'name' => 'Policy Type',
+      'machine_name' => 'policy_type',
       'description' => '',
       'hierarchy' => '0',
       'module' => 'taxonomy',
